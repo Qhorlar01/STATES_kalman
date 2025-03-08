@@ -14,8 +14,8 @@ This project estimates the angular position $$(θ)$$ and angular velocity $$(Ω)
 
 ### 🛠️ Implementation  
 #### Key Functions:  
-- `inputvoltage(D, A, $$Delta$$, $$Ts$$)`: Generates a zero-mean square wave input.  
-- `simulate(u, G, T, Ts, L, $$x_1$$)`: Simulates the DC motor's deterministic model.  
+$$- `inputvoltage(D, A, Delta, Ts)`$$: Generates a zero-mean square wave input.  
+- `simulate(u, G, T, Ts, L, x_1)`: Simulates the DC motor's deterministic model.  
 - `stationary_kal(y, u, G, T, Ts, L, x1_θ, q)`: Implements the Stationary Kalman Filter.  
 - `kal(y, u, G, T, Ts, L, x1_θ, p1_θ, q)`: Implements the Time-Varying Kalman Filter.  
 
